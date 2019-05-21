@@ -21,7 +21,7 @@
 
             <!--按钮-->
             <view>
-                <button class="loginBtn" type="primary">普通登录</button>
+                <button class="loginBtn" type="primary" >普通登录</button>
             </view>
 
             <view>

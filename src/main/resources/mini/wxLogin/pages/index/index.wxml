@@ -1,13 +1,37 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<view>
+  <view class='headPortraitPart'>
+    <view class='headPortrait'>
+      <image class='headSize' src='{{headPortraitUrl}}'></image>
+    </view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class='nameAndTel'>
+    <view class='nameAndTel_l'>
+      <view class='name'>
+        <text class='userinfo-nickname'>姓名:{{name}}</text>
+      </view>
+      <view class='iconSize'>
+        <text>{{franchiserName}}</text>
+      </view>
+      <view class='tel'>
+        <text class='userinfo-nickname'>{{tel}}</text>
+      </view>
+    </view>
+    <view class='twoweima'>
+      <image class='twoweimaSize' src='{{erweimaUrl}}'></image>
+    </view>
+  </view>
+  <view class='apply'>
+    <view class='sqjx'>
+      <text>申请经销</text>
+    </view>
+  </view>
+  <view class='synopsis'>
+    <view class='synopsisFont'>
+      <text>企业简介</text>
+    </view>
+    <view class='synopsisInfo'>
+      <text>{{synopsisInfo}}</text>
+    </view>
   </view>
 </view>
