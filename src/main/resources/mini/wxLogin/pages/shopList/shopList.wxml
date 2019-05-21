@@ -1,0 +1,114 @@
+<view>
+  <view class='search'>
+    <span style="float:left;">
+      <image class='three_image' src='{{three_image}}' />
+    </span>
+    <span>
+     <input style='padding-left:2%;' placeholder='合亿户外' type='text' />
+    </span>
+  </view>
+  <view class='navigation'>
+    <span class="word">{{comprehensive}}</span>
+    <span class="shu">|</span>
+    <span class="word">{{sales}}</span>
+    <span class="picture">
+    <image class='small_triangle' src='{{one_image}}' />
+    </span>
+    <span class="shu">|</span>
+    <span class="word">{{price}}</span>
+    <span class="picture">
+      <image class='small_triangle' src='{{one_image}}' />
+    </span>
+    <span class="shu">|</span>
+    <span class="word">{{screen}}</span>
+    <span class="picture">
+      <image class='small_triangle' src='{{two_image}}' />
+    </span>
+    <view class='line'></view>
+  </view>
+  <!-- 所有商品 -->
+  <view class='commodity_all'>
+    <!-- 单个商品 -->
+    <view class='commodity'>
+      <view class='commodity_image'><image style='width:100%;' mode='widthFix' src='{{clothesOne}}'></image></view>
+      <view class='yellow'>{{title}}</view>
+      <view class='explain'>{{explain_word}}</view>
+      <view>
+        <text class='money' decode>{{money_word}}</text>
+        <image class='commodity_shopCar' src='{{shopCar}}'></image>
+      </view>
+    </view>
+    <!-- 单个商品 -->
+    <view class='commodity'>
+      <view class='commodity_image'><image style='width:100%;' mode='widthFix' src='{{clothesTwo}}'></image></view>
+      <view class='yellow'>{{title}}</view>
+      <view class='explain'>{{explain_word}}</view>
+      <view>
+        <text class='money' decode>{{money_word}}</text>
+        <image class='commodity_shopCar' src='{{shopCar}}'></image>
+      </view>
+    </view>
+    <!-- 单个商品 -->
+    <view class='commodity'>
+      <view class='commodity_image'><image style='width:100%;' mode='widthFix' src='{{shoes}}'></image></view>
+      <view class='yellow'>{{title}}</view>
+      <view class='explain'>{{explain_word}}</view>
+      <view>
+        <text class='money' decode>{{money_word}}</text>
+        <image class='commodity_shopCar' src='{{shopCar}}'></image>
+      </view>
+    </view>
+    <!-- 单个商品 -->
+    <view class='commodity'>
+      <view class='commodity_image'><image style='width:100%;' mode='widthFix' src='{{clothesTwo}}'></image></view>
+      <view class='yellow'>{{title}}</view>
+      <view class='explain'>{{explain_word}}</view>
+      <view>
+        <text class='money' decode>{{money_word}}</text>
+        <image class='commodity_shopCar' src='{{shopCar}}'></image>
+      </view>
+    </view>
+    <!-- 单个商品 -->
+    <view class='commodity'>
+      <view class='commodity_image'><image style='width:100%;' mode='widthFix' src='{{clothesOne}}'></image></view>
+      <view class='yellow'>{{title}}</view>
+      <view class='explain'>{{explain_word}}</view>
+      <view>
+        <text class='money' decode>{{money_word}}</text>
+        <image class='commodity_shopCar' src='{{shopCar}}'></image>
+      </view>
+    </view>
+    <!-- 单个商品 -->
+    <view class='commodity'>
+      <view class='commodity_image'><image style='width:100%;' mode='widthFix' src='{{clothesTwo}}'></image></view>
+      <view class='yellow'>{{title}}</view>
+      <view class='explain'>{{explain_word}}</view>
+      <view>
+        <text class='money' decode>{{money_word}}</text>
+        <image class='commodity_shopCar' src='{{shopCar}}'></image>
+      </view>
+    </view>
+    <!-- 单个商品 -->
+    <view class='commodity'>
+      <view class='commodity_image'><image style='width:100%;' mode='widthFix' src='{{shoes}}'></image></view>
+      <view class='yellow'>{{title}}</view>
+      <view class='explain'>{{explain_word}}</view>
+      <view>
+        <text class='money' decode>{{money_word}}</text>
+        <image class='commodity_shopCar' src='{{shopCar}}'></image>
+      </view>
+    </view>
+    <!-- 单个商品 -->
+    <view class='commodity'>
+      <view class='commodity_image'><image style='width:100%;' mode='widthFix' src='{{clothesTwo}}'></image></view>
+      <view class='yellow'>{{title}}</view>
+      <view class='explain'>{{explain_word}}</view>
+      <view>
+        <text class='money' decode>{{money_word}}</text>
+        <image class='commodity_shopCar' src='{{shopCar}}'></image>
+      </view>
+    </view>
+  </view>
+
+  
+</view>

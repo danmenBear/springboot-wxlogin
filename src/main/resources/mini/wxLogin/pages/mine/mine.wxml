@@ -1,0 +1,38 @@
+<view class='head'>
+  <view class='img'>
+    <image class='user' style='' src='{{mine_image}}'></image>
+    <view class='user_name'>{{user_name}}</view>
+    <view class='identity'>{{distributor}}</view>
+    <view class='address'>
+      <image class='address_image' src='{{address_image}}'></image>
+      <text class='address_word'>{{address_word}}</text>
+    </view>
+  </view>
+  <view class='order'>{{order}}</view>
+  <view class='xian'></view>
+  <view class='four'>
+    <view class='list'>
+      <image class='list_image' src='{{payment}}'></image>
+      <view class='list_word'>{{payment_word}}</view>
+    </view>
+    <view class='list'>
+      <image class='list_image' src='{{shipment}}'></image>
+      <view class='list_word'>{{shipment_word}}</view>
+    </view>
+    <view class='list'>
+      <image class='list_image' src='{{recivice}}'></image>
+      <view class='list_word'>{{recivice_word}}</view>
+    </view>
+    <view class='list'>
+      <image class='list_image' src='{{finish}}'></image>
+      <view class='list_word'>{{finish_word}}</view>
+    </view>
+  </view>
+  <view class='xian-two'></view>
+  <view class='star-box'>
+    <view class='star'>
+      <image class='star_image' src='{{star_image}}'></image>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,101 @@
+page{
+  background-color: #2A82E3;
+}
+.user{
+  width:80%;height:120rpx;margin:35rpx;
+}
+.head{
+  width: 100%;
+  height: 180rpx;
+}
+.img{
+  width: 20%;
+  height: 149rpx;
+}
+.user_name{
+  width: 130rpx;
+  margin: -160rpx 0 0 180rpx;
+  color: white;
+  font-weight: 600;
+  font-size: 40rpx;
+}
+.identity{
+  color: white;
+  border: 1px white solid;
+  margin: 20rpx 0 0 180rpx;
+  width: 110rpx;
+  font-size: 30rpx;
+  border-radius: 5rpx;
+  text-align: center;
+}
+.address{
+  background-color: #F54440;
+  width: 160%;
+  height: 70rpx;
+  color: white;
+  font-weight: 600;
+  margin: -100rpx 0 0 340%;
+  border-radius:30rpx 0 0 30rpx;
+}
+.address_image{
+  width:50rpx;
+  height:50rpx;
+  color:white;
+  margin:10rpx;
+}
+.address_word{
+  font-size: 35rpx;
+  float:right;
+  margin:2px 15px 0 0;
+}
+.order{
+  margin-top:30rpx;
+  height:70rpx;
+  font-weight: 700;
+  line-height: 70rpx;
+  padding-left: 20rpx;
+  background-color: white;
+}
+.xian{
+  width: 100%;
+  border: 1px #EEEEEE solid;
+  background-color: #EEEEEE;
+}
+.four{
+  width: 100%;
+  height: 200rpx;
+  background-color: white;
+}
+.list{
+  width: 24%;
+  height: 200rpx;
+  float: left;
+  margin-left: 1rpx;
+}
+.list_image{
+  width:50%;
+  height:90rpx;
+  margin:20rpx 45rpx;
+}
+.list_word{
+  font-weight:600;
+  text-align: center;
+}
+.xian-two{
+  width: 100%;
+  border: 1px #EEEEEE solid;
+  background-color: #EEEEEE;
+}
+.star-box{
+  width: 100%;
+  background-color: white;
+}
+.star{
+  width: 20%;
+  height: 200rpx;
+}
+.star_image{
+  width:65%;
+  height:100rpx;
+  margin:30rpx 15rpx;
+}
