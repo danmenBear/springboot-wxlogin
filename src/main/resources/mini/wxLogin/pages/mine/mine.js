@@ -26,6 +26,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    
 
   },
 
@@ -33,7 +34,22 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    var self = this
+    wx.request({
+      url: "http://19n77p3211.51mypc.cn/message",
+      method: "get",
+      success: function (result) {
+        console.log(result);
+        console.log(result.data.user_name);
+        console.log(result.data.distributor);
+        self.setData({
+          user_name: result.data.user_name,
+          distributor: result.data.distributor,
+          mine_image: result.data.mine_image,
+          order: result.data.order
+        })
+      }
+    })
   },
 
   /**
