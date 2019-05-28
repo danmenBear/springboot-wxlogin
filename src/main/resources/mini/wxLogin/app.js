@@ -29,6 +29,7 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    extranetUrl: "http://19n77p3211.51mypc.cn"
   }
 })

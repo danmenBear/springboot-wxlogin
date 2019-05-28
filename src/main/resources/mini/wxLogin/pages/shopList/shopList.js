@@ -1,4 +1,6 @@
 // pages/index/index.js
+//获取应用实例
+const app = getApp()
 Page({
 
   /**
@@ -18,7 +20,9 @@ Page({
     title:'户外装备外套（卖点）',
     explain_word:'Jackwolf狼爪 专业户外 合亿购专供',
     money_word:'￥&nbsp;999.00',
-    shopCar:'../image/shop_car.png'
+    shopCar:'../image/shop_car.png',
+    clothesList:''
+    
   },
 
   /**
@@ -33,7 +37,17 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    var self = this
+    wx.request({
+      url: app.globalData.extranetUrl + "/commodity",
+      method: "get",
+      success: function (result) {
+        console.log(result.data);
+        self.setData({
+          clothesList: result.data
+        })
+      }
+    })
   },
 
   /**

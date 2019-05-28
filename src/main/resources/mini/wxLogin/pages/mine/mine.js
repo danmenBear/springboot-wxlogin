@@ -1,4 +1,6 @@
 // pages/mine/mine.js
+//获取应用实例
+const app = getApp()
 Page({
 
   /**
@@ -36,7 +38,7 @@ Page({
   onReady: function () {
     var self = this
     wx.request({
-      url: "http://19n77p3211.51mypc.cn/message",
+      url: app.globalData.extranetUrl + "/message",
       method: "get",
       success: function (result) {
         console.log(result);

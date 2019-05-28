@@ -28,86 +28,26 @@
   </view>
   <!-- 所有商品 -->
   <view class='commodity_all'>
+
+  <view wx:for="{{clothesList}}">
+
     <!-- 单个商品 -->
     <view class='commodity'>
-      <view class='commodity_image'><image style='width:100%;' mode='widthFix' src='{{clothesOne}}'></image></view>
-      <view class='yellow'>{{title}}</view>
-      <view class='explain'>{{explain_word}}</view>
+      <view class='commodity_image'><image style='width:100%;' mode='widthFix' src='{{item.clothesOne}}'></image></view>
+      <view class='yellow'>{{item.title}}</view>
+      <view class='explain'>{{item.explainWord}}</view>
       <view>
-        <text class='money' decode>{{money_word}}</text>
-        <image class='commodity_shopCar' src='{{shopCar}}'></image>
+        <text class='money' decode>{{item.money_word}}</text>
+        <image class='commodity_shopCar' src='{{item.shopCar}}'></image>
       </view>
     </view>
-    <!-- 单个商品 -->
-    <view class='commodity'>
-      <view class='commodity_image'><image style='width:100%;' mode='widthFix' src='{{clothesTwo}}'></image></view>
-      <view class='yellow'>{{title}}</view>
-      <view class='explain'>{{explain_word}}</view>
-      <view>
-        <text class='money' decode>{{money_word}}</text>
-        <image class='commodity_shopCar' src='{{shopCar}}'></image>
-      </view>
+
     </view>
-    <!-- 单个商品 -->
-    <view class='commodity'>
-      <view class='commodity_image'><image style='width:100%;' mode='widthFix' src='{{shoes}}'></image></view>
-      <view class='yellow'>{{title}}</view>
-      <view class='explain'>{{explain_word}}</view>
-      <view>
-        <text class='money' decode>{{money_word}}</text>
-        <image class='commodity_shopCar' src='{{shopCar}}'></image>
-      </view>
-    </view>
-    <!-- 单个商品 -->
-    <view class='commodity'>
-      <view class='commodity_image'><image style='width:100%;' mode='widthFix' src='{{clothesTwo}}'></image></view>
-      <view class='yellow'>{{title}}</view>
-      <view class='explain'>{{explain_word}}</view>
-      <view>
-        <text class='money' decode>{{money_word}}</text>
-        <image class='commodity_shopCar' src='{{shopCar}}'></image>
-      </view>
-    </view>
-    <!-- 单个商品 -->
-    <view class='commodity'>
-      <view class='commodity_image'><image style='width:100%;' mode='widthFix' src='{{clothesOne}}'></image></view>
-      <view class='yellow'>{{title}}</view>
-      <view class='explain'>{{explain_word}}</view>
-      <view>
-        <text class='money' decode>{{money_word}}</text>
-        <image class='commodity_shopCar' src='{{shopCar}}'></image>
-      </view>
-    </view>
-    <!-- 单个商品 -->
-    <view class='commodity'>
-      <view class='commodity_image'><image style='width:100%;' mode='widthFix' src='{{clothesTwo}}'></image></view>
-      <view class='yellow'>{{title}}</view>
-      <view class='explain'>{{explain_word}}</view>
-      <view>
-        <text class='money' decode>{{money_word}}</text>
-        <image class='commodity_shopCar' src='{{shopCar}}'></image>
-      </view>
-    </view>
-    <!-- 单个商品 -->
-    <view class='commodity'>
-      <view class='commodity_image'><image style='width:100%;' mode='widthFix' src='{{shoes}}'></image></view>
-      <view class='yellow'>{{title}}</view>
-      <view class='explain'>{{explain_word}}</view>
-      <view>
-        <text class='money' decode>{{money_word}}</text>
-        <image class='commodity_shopCar' src='{{shopCar}}'></image>
-      </view>
-    </view>
-    <!-- 单个商品 -->
-    <view class='commodity'>
-      <view class='commodity_image'><image style='width:100%;' mode='widthFix' src='{{clothesTwo}}'></image></view>
-      <view class='yellow'>{{title}}</view>
-      <view class='explain'>{{explain_word}}</view>
-      <view>
-        <text class='money' decode>{{money_word}}</text>
-        <image class='commodity_shopCar' src='{{shopCar}}'></image>
-      </view>
-    </view>
+  
+    
+   
+ 
+   
   </view>
 
   
